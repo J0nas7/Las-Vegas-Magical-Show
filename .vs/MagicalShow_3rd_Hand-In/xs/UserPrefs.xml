@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{1BA6E4E6-53C0-477E-BCA5-DA49FF459620}|">
+  <MonoDevelop.Ide.ItemProperties.MagicalShow__3rd__Hand-In PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MagicalShow_3rd_Hand-In/Profile.aspx.cs">
+    <Files>
+      <File FileName="MagicalShow_3rd_Hand-In/EditProfile.aspx" Line="16" Column="42" />
+      <File FileName="MagicalShow_3rd_Hand-In/EditProfile.aspx.cs" Line="54" Column="45" />
+      <File FileName="MagicalShow_3rd_Hand-In/CreateMagician.aspx.cs" Line="13" Column="72" />
+      <File FileName="MagicalShow_3rd_Hand-In/Default.aspx.cs" Line="69" Column="52" />
+      <File FileName="MagicalShow_3rd_Hand-In/Overview.aspx.cs" Line="27" Column="67" />
+      <File FileName="MagicalShow_3rd_Hand-In/Magician.cs" Line="26" Column="1" />
+      <File FileName="MagicalShow_3rd_Hand-In/Profile.aspx" Line="26" Column="3" />
+      <File FileName="MagicalShow_3rd_Hand-In/Profile.aspx.cs" Line="48" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MagicalShow_3rd_Hand-In" expanded="True">
+            <Node name="MagicalShow_3rd_Hand-In" expanded="True">
+              <Node name="CreateMagician.aspx" expanded="True" />
+              <Node name="CreateStaff.aspx" expanded="True" />
+              <Node name="Default.aspx" expanded="True" />
+              <Node name="EditProfile.aspx" expanded="True" />
+              <Node name="Overview.aspx" expanded="True" />
+              <Node name="Profile.aspx" expanded="True">
+                <Node name="Profile.aspx.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

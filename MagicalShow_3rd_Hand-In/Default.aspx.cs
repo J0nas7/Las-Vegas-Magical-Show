@@ -54,6 +54,7 @@ namespace MagicalShow_3rd_HandIn
                 {
                     loggedIn = true;
                     Session["LoggedIn"] = s;
+                    Session["LoggedIndex"] = i;
                 }
             }
             if (!loggedIn)
@@ -65,6 +66,7 @@ namespace MagicalShow_3rd_HandIn
                     {
                         loggedIn = true;
                         Session["LoggedIn"] = m;
+                        Session["LoggedIndex"] = i;
                     }
                 }
             }

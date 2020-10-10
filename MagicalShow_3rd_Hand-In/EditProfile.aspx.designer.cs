@@ -11,7 +11,7 @@
 namespace MagicalShow_3rd_HandIn {
 	
 	
-	public partial class Profile {
+	public partial class EditProfile {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
@@ -21,16 +21,14 @@ namespace MagicalShow_3rd_HandIn {
 		
 		protected System.Web.UI.WebControls.Label LabelName;
 		
-		protected System.Web.UI.WebControls.Label TheName;
+		protected System.Web.UI.WebControls.TextBox TextBoxName;
 		
 		protected System.Web.UI.WebControls.Label LabelPassword;
 		
-		protected System.Web.UI.WebControls.Label ThePassword;
+		protected System.Web.UI.WebControls.TextBox TextBoxPassword;
 		
 		protected System.Web.UI.WebControls.Label LabelSpecific;
 		
-		protected System.Web.UI.WebControls.ListBox ListBoxSpecific;
-		
-		protected System.Web.UI.WebControls.Button button3;
+		protected System.Web.UI.WebControls.TextBox TextBoxSpecific;
 	}
 }

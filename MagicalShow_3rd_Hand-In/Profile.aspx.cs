@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Web;
 using System.Web.UI;
+using System.Collections;
 namespace MagicalShow_3rd_HandIn
 {
     public partial class Profile : System.Web.UI.Page
     {
+        ArrayList localList;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["LoggedIn"] == null)
             {
-                Session["LoggedIn"] = new Magician("Eye wiggle,Hand snap", "Bo", "hehe");
-                //Response.Redirect("Default.aspx");
+                Response.Redirect("Default.aspx");
             }
 
             Person p = (Person)Session["LoggedIn"];
@@ -41,6 +43,22 @@ namespace MagicalShow_3rd_HandIn
         public void editProfile(object sender, EventArgs args)
         {
             Response.Redirect("EditProfile.aspx");
+        }
+
+        public void deleteProfile(object sender, EventArgs args)
+        {
+            if (Session["LoggedIn"].GetType().ToString() == "MagicalShow_3rd_HandIn.Staff")
+            {
+                localList = (ArrayList)Application["StaffCollection"];
+            }
+            else if (Session["LoggedIn"].GetType().ToString() == "MagicalShow_3rd_HandIn.Magician")
+            {
+                localList = (ArrayList)Application["MagicCollection"];
+            }
+
+            localList.Remove(Session["LoggedIn"]);
+            Session["LoggedIn"] = null;
+            Response.Redirect("Default.aspx");
         }
     }
 }

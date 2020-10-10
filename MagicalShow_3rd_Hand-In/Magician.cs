@@ -19,7 +19,20 @@ namespace MagicalShow_3rd_HandIn
             }
         }
 
-        public ArrayList FavoriteTricks { get => favoriteTricks; set => favoriteTricks = value; }
+        public ArrayList FavoriteTricks {
+            get => favoriteTricks;
+        }
+
+        public void SetFavoriteTricks(string value)
+        {
+            this.favoriteTricks = new ArrayList();
+            string MagicTrick = value;
+            string[] tricks = MagicTrick.Split(',');
+            for (int i = 0; i < tricks.Length; i++)
+            {
+                this.AddFavouriteTrick(tricks[i]);
+            }
+        }
 
         public void AddFavouriteTrick(string Trick)
         {
